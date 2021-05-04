@@ -1,26 +1,16 @@
-/*标题居中*/ 
-h1{
-	text-align:center;
-}
-h2{
-	text-align:center;
-}
-
-/*标题字体*/
-h1,h2,h3,h4,h5,h6{font-family:黑体;}
-
-/*标题字号*/
-h2{font-size:18px;}
-h3{font-size:15px;}
-h4{font-size:14px;}
-h5{font-size:12px;}
-h6{font-size:12px;}
+/*各级标题*/
+h1{font-size:26pt/*一号*/;font-family:黑体;text-align:center;}
+h2{font-size:22pt/*小二*/;font-family:黑体;text-align:center;}
+h3{font-size:15pt/*小三*/;font-family:黑体;}
+h4{font-size:14pt/*四号*/;font-family:黑体;}
+h5{font-size:12pt/*小四*/;font-family:黑体;}
+h6{font-size:12pt/*小四*/;font-family:黑体;}
 
 /*正文字体以及字号*/
 /*TODO: 中文和英文有一些共享的标点（弯引号，破折号等），关于这些特殊字符还需要特别处理*/
 p,ol,ul,table{
 	font-family:Times New Roman,宋体;
-	font-size:12px;
+	font-size:12pt;
 }
 
 /*段首缩进*/
