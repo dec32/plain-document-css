@@ -1,0 +1,59 @@
+/*标题居中*/ 
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+
+/*标题字体*/
+h1,h2,h3,h4,h5,h6{font-family:黑体;}
+
+/*标题字号*/
+h2{font-size:18px;}
+h3{font-size:15px;}
+h4{font-size:14px;}
+h5{font-size:12px;}
+h6{font-size:12px;}
+
+/*正文字体以及字号*/
+/*TODO: 中文和英文有一些共享的标点（弯引号，破折号等），关于这些特殊字符还需要特别处理*/
+p,ol,ul,table{
+	font-family:Times New Roman,宋体;
+	font-size:12px;
+}
+
+/*段首缩进*/
+p{text-indent:2em}
+
+/*图片*/
+img{
+	width:100%;
+}
+
+/*页边距*/
+body{
+	margin-top:2cm;
+	margin-bottom:2cm;
+	margin-left:2.5cm;
+	margin-right:2.5cm;
+}
+/*表格*/
+table{
+	border-collapse: collapse;
+	width:100%
+}
+table,th,td {
+	border: 1px solid black;
+}
+th,td{
+	text-align:left;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	font-weight:normal;
+}
+
+/*代码块*/
+
